@@ -64,6 +64,10 @@ $('#nav').onePageNav({
 ### Offset
 In a previous version, there was an offset option to pass into the JavaScript. This was abandoned in favor of a CSS-only solution which simplified the code and makes it easier to handle responsively. [Example](http://davist11.github.io/jQuery-One-Page-Nav/top.html)
 
+### ScrollOffset
+
+Without knowing the real impact, I have added back the scrollOffset config option. 
+
 ### If you are having issues with iOS devices
 If clicking a link in the nav makes the rest of the links unclickable until you scroll, you can solve it in this hacky way:
 
